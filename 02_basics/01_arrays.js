@@ -24,7 +24,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log( newArr);
 
 
-// slice, splice
+// slice, splice, toSpliced
 
 console.log("A ", myArr);
 
@@ -37,7 +37,16 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
+
+// const arr3 =myArr.toSpliced(0,1)
+// console.log(arr3); //doesn't work on node try  to run on browser
+
 /**
  * slice: Does not modify the original array, returns a new array, used to extract a portion of an array.
 splice: Modifies the original array, can add/remove elements, used to modify the content of an array.
  */
+//flat 
+/*The flat() method creates a new array with sub-array elements concatenated to a specified depth. */
+arr =[[1,2],[3,4],[5,6]]
+arr1 = arr.flat()
+// console.log(arr1) //output : [1,2,3,4,5,6]
