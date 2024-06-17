@@ -86,3 +86,7 @@ const res=number.filter((value)=>value>10)
 //reduce 
 const res1= number.reduce((acc,crr)=>acc+crr)
 // console.log(res1);
+
+//every
+const res2 = number.every((value)=>value>1)
+// console.log(res2);
