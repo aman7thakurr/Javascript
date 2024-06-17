@@ -1,3 +1,10 @@
+/*JavaScript Variables can be declared in 4 ways:
+
+Automatically
+Using var
+Using let
+Using const */
+
 const userId = 112 /* const is used to declare variables that are constant and cannot be reassigned. 
 but it does prevent reassignment of the variable.
 
