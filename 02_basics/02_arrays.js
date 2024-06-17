@@ -90,3 +90,15 @@ const res1= number.reduce((acc,crr)=>acc+crr)
 //every
 const res2 = number.every((value)=>value>1)
 // console.log(res2);
+
+//some
+const res3 = number.some((value)=>value>100)
+// console.log(res3);
+
+//spread
+const q1 = ["Jan", "Feb", "Mar"];
+const q2 = ["Apr", "May", "Jun"];
+const q3 = ["Jul", "Aug", "Sep"];
+const q4 = ["Oct", "Nov", "May"];
+const year= [...q1,...q2,...q3,...q4]
+// console.log(year);
