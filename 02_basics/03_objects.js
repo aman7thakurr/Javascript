@@ -1,17 +1,17 @@
 // singleton
 // Object.create
 
-// object literals
+// object literals (non-singleton)
 
 const mySym = Symbol("key1")
 
 
 const JsUser = {
-    name: "Hitesh",
+    name: "Aman",
     "full name": "Aman Thakur",
     [mySym]: "mykey1",
     age: 18,
-    location: "Jaipur",
+    location: "Mohali",
     email: "aman@gmail.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
@@ -36,3 +36,4 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+
