@@ -62,3 +62,27 @@ If the item is present more than once, it returns the position of the first occu
 
 /*toReversed() method as a safe way to reverse an array without altering the original array. */
 // Math.min() , Math.max()
+
+
+//**********Array Iteration*******
+
+//Array forEach
+// number.forEach(eachFun)
+// function eachFun(value){
+//     console.log(value); 
+// }
+
+// map
+// const res=number.map(myFunc)
+// function myFunc(value){
+//     return value *2
+// }
+// console.log(res);
+
+//filter
+const res=number.filter((value)=>value>10)
+// console.log(res);
+
+//reduce 
+const res1= number.reduce((acc,crr)=>acc+crr)
+// console.log(res1);
