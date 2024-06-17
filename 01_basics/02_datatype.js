@@ -1,3 +1,13 @@
+/*JavaScript has 8 Datatypes:
+String
+Number
+Bigint
+Boolean
+Undefined
+Null
+Symbol
+Object */
+
 // alert(3+3)//don't use alert in nodejs it will give you error. but you can use it in normal files that are compiled by browsers
  let string ="this is a string" //string datatype
  let number = 123 //numbers/integer
