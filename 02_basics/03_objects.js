@@ -37,3 +37,11 @@ JsUser.greetingTwo = function(){
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
 
+// const obj = {
+//     person1: "abc",
+//     person2: "zxc",
+//     perso3: "qwe"
+// }
+// for (x in obj){
+//     console.log(obj[x]);
+// }
