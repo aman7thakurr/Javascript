@@ -1,6 +1,6 @@
 //  Primitive
 
-//  8 types : String, Number, Boolean, null, undefined,object, Symbol, BigInt
+//  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
