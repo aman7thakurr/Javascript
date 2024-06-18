@@ -18,10 +18,31 @@ you can use "m" with "g" and "i"
 */
 
 //exec searches provided string and it returns object if no match found it returns null
-console.log(/how/gi.exec("hello ! How are you?"))
+// console.log(/how/gi.exec("hello ! How are you?"))
 
 //test searches the string for the provided pattern, and returns true or false depending on the result
-console.log(/how/i.test("hello ! How are you?"))
+// console.log(/how/i.test("hello ! How are you?"))
 
-console.log(/are/mi.exec("hello ! How Are you?")
-);
+// console.log(/are/mi.exec("hello ! How Are you?"));
+
+
+//groups
+/*
+brackets[abc] specify matches to the character
+inside the bracket
+[abc] - any character from a ,b,c
+[A-Z] - any character from A to Z
+[A-z] - any character from capital A to lowercase z
+[a-z] - any character from lowercase a to lowercase z
+*/
+// console.log(/[abc]/gi.exec("hello ! How Are you?"));
+// console.log(/[a-z]/g.exec("hello ! How Are you?"));
+// console.log(/[A-z]/g.exec("hello ! How Are you?"));
+// console.log(/[A-Z]/g.exec("hello ! How Are you?"));
+
+//search
+const str = "hello ! How Are you?"
+let n = str.search(/How/g)
+console.log(n);
+let z = str.match(/[A-z]/gi)
+console.log(z);
