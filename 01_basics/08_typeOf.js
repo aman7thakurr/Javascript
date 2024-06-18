@@ -1,6 +1,11 @@
 const name = "Aman" //string
 console.log(typeof name); //type: string
 
+const asd = null  //null
+console.log(typeof asd); //type :  object
+
+const qw = undefined //undefined
+console.log(typeof qw);// type :  undefined
 
 const num = 12 // number
 console.log(typeof num); //type: number
