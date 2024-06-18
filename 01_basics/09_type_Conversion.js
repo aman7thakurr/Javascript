@@ -8,8 +8,10 @@ console.log(typeof String(123));
 const d = new Date()
 console.log(typeof Number(d));
 
-// Converting Numbers to Dates
-
-
 // Converting Booleans to Numbers
-// Converting Numbers to Booleans 
+const bool = true
+console.log( Number(bool));
+
+// Converting Numbers to Booleans
+const num =0
+console.log(Boolean(num)); 
