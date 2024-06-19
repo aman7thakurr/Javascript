@@ -50,6 +50,7 @@ while(l <= r) {
 //     },)
 //   }
 // }
+
 function fun(){
   for(let i = 0; i<5; i++){
     setTimeout(()=>{
